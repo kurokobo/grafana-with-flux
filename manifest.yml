@@ -1,0 +1,9 @@
+applications:
+  - name: ((name))
+    instances: ((instances))
+    memory: ((memory))
+    docker:
+      image: ((image))
+    env:
+      GF_HTTP_PORT: 8080
+      GF_INSTALL_PLUGINS: grafana-influxdb-flux-datasource

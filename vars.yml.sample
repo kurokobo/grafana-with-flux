@@ -1,0 +1,4 @@
+name: 
+instances: 
+memory: 
+image: grafana/grafana:6.5.2
